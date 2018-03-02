@@ -1,0 +1,49 @@
+Test cases:
+
+a)For ls command:
+ls .
+ls -a .
+ls -s .
+
+b)For cat command:
+cat filename
+cat filename filename
+cat -E filename
+cat -n filename
+
+c)For date command:
+date
+date -u 
+date -R
+
+d)For rm command:
+rm filename
+rm -v filename
+rm -d filename
+
+e)For mkdir command:
+mkdir directory_name
+mkdir -v directory_name
+mkdir -d directory_name
+
+f)For echo command:
+echo text
+echo -n text
+echo -e text
+
+g)For history command:
+history
+history -c
+
+h)For cd command:
+cd .
+cd ..
+cd directory_name
+
+i)For pwd command:
+pwd
+pwd -P
+
+j)For exit command: 
+exit
+exit 3
